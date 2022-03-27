@@ -1,8 +1,8 @@
 /*Vložení názvu, počet stran a datum vydání pro knihu WILL*/
 INSERT INTO demo (nazev, pocetstranek, datumvydani) VALUES ("WILL", 325, 2021);
-/*Vložení názvu, počet stran a datum vydání pro knihu WILL*/
+/*Vložení názvu, počet stran a datum vydání pro knihu Poslední člověk*/
 INSERT INTO demo (nazev, pocetstranek, datumvydani) VALUES ("Poslední člověk", 263, 2021);
-/*Vložení názvu, počet stran a datum vydání pro knihu WILL*/
+/*Vložení názvu, počet stran a datum vydání pro knihu Běž, chlapče, běž*/
 INSERT INTO demo (nazev, pocetstranek, datumvydani) VALUES ("Běž, chlapče, běž", 192, 2014);
 /*Upravení počtu stran u knihy WILL*/
 UPDATE demo SET pocetstranek = "528" WHERE id = 1;
